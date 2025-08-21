@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wrap{
+    padding: 10px;
+    background: #2d3748;
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Form {
+    padding: 20px;
+}
+
+input {
+    background: gray;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    cursor: none;
+}
+
+h1:hover {
+    text-shadow: 0px 0px 10px white;
+    color: #2d3748;
+}
+
+#btn:hover {
+    cursor: none;
+    background: white;
+    text-shadow: 0px 0px 15px red;
+}
+
+.nav-bar {
+    color: white;
+    background: #2d3748;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.basic-icons {
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: white;
+}
+
+.icon {
+    font-weight: 700;
+    padding: 20px;
+}
+
+.icon:hover {
+    text-shadow: 0px 0px 20px white;
+    cursor: none;
+}
+
+.icons:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.icons {
+    color: white;
+}
+
+#link-c:visited {
+    color: red;
+}
+
